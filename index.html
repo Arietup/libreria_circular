@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Librería Circular de Guayaquil — Libros gratuitos para toda la comunidad, sostenida por el amor a la lectura y las donaciones.">
+  <meta name="theme-color" content="#E07A4F">
+  <meta property="og:title" content="Librería Circular de Guayaquil">
+  <meta property="og:description" content="Libros libres para todos. Una iniciativa sostenida por la comunidad que ama leer.">
+  <meta property="og:type" content="website">
+  <title>Librería Circular de Guayaquil</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#inicio" class="nav__logo">
+        <span class="nav__logo-mark">◎</span>
+        <span>Librería Circular</span>
+      </a>
+      <ul class="nav__menu" id="nav-menu" role="list">
+        <li><a href="#quienes-somos" class="nav__link">Nosotros</a></li>
+        <li><a href="#como-funciona" class="nav__link">Cómo funciona</a></li>
+        <li><a href="#acompanamiento" class="nav__link">Acompañamiento</a></li>
+        <li><a href="#medios" class="nav__link">Medios</a></li>
+        <li><a href="#apoyanos" class="nav__link">Apóyanos</a></li>
+      </ul>
+      <a href="https://api.whatsapp.com/message/6DYN3IJA7Q4QA1?autoload=1&app_absent=0"
+         target="_blank" rel="noopener" class="btn btn--primary nav__cta">
+        Escríbenos
+      </a>
+      <button class="nav__toggle" id="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="inicio">
+      <div class="hero__overlay" aria-hidden="true"></div>
+      <div class="container hero__container">
+        <div class="hero__content">
+          <p class="hero__location" data-animate>Guayaquil, Ecuador</p>
+          <h1 class="hero__title" data-animate data-animate-delay="1">
+            Libros libres<br>
+            <em>para todos</em>
+          </h1>
+          <p class="hero__lead" data-animate data-animate-delay="2">
+            Una iniciativa circular donde los libros no se quedan quietos:
+            circulan, conectan y transforman vidas. Completamente gratuito,
+            sostenido por la comunidad que ama leer.
+          </p>
+          <div class="hero__actions" data-animate data-animate-delay="3">
+            <a href="https://api.whatsapp.com/message/6DYN3IJA7Q4QA1?autoload=1&app_absent=0"
+               target="_blank" rel="noopener" class="btn btn--primary btn--lg">
+              <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+              Solicitar un libro
+            </a>
+            <a href="https://www.instagram.com/libreriacirculardeguayaquil/"
+               target="_blank" rel="noopener" class="btn btn--ghost btn--lg">
+              Síguenos en Instagram
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="hero__wave" aria-hidden="true">
+        <svg viewBox="0 0 1440 88" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+          <path d="M0 88L80 72C160 56 320 24 480 16C640 8 800 24 960 36C1120 48 1280 56 1360 60L1440 64V88H0Z" fill="#F0EAE0"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- ========== SOBRE NOSOTROS ========== -->
+    <section class="about" id="quienes-somos">
+      <div class="container about__container">
+        <div class="about__image-col" data-animate>
+          <div class="about__frame">
+            <img src="https://res.cloudinary.com/dziar1ybm/image/upload/v1780720015/IMG_7975_cumo3h.png"
+                 alt="Mayi Gómez, fundadora de la Librería Circular de Guayaquil"
+                 class="about__photo"
+                 loading="lazy">
+          </div>
+          <div class="about__badge">
+            <span class="about__badge-symbol">◎</span>
+            <p>Economía circular aplicada a la cultura</p>
+          </div>
+        </div>
+        <div class="about__text-col">
+          <h2 class="section-title" data-animate>
+            Una biblioteca que<br><em>vive y circula</em>
+          </h2>
+          <p class="about__para" data-animate data-animate-delay="1">
+            La Librería Circular de Guayaquil nació de una idea simple y poderosa:
+            los libros no deberían quedarse acumulando polvo en un estante. Aquí,
+            cada libro encontrado es un libro en movimiento.
+          </p>
+          <p class="about__para" data-animate data-animate-delay="1">
+            Fundada por <strong>Mayi Gómez</strong>, esta iniciativa opera bajo el
+            principio de la economía circular aplicada a la cultura: los libros se
+            reciben en donación y se entregan completamente gratis a quienes los
+            necesitan, creando un ciclo continuo de lectura y conocimiento compartido.
+          </p>
+          <p class="about__para" data-animate data-animate-delay="1">
+            Reconocida por la <strong>ESPOL</strong> como un ejemplo de economía
+            circular viva en Guayaquil, la iniciativa demuestra que la cultura
+            puede — y debe — ser accesible para todas las personas.
+          </p>
+          <div class="about__stats" data-animate data-animate-delay="2">
+            <div class="stat">
+              <span class="stat__value">100%</span>
+              <span class="stat__label">Libros gratuitos</span>
+            </div>
+            <div class="stat">
+              <span class="stat__value">∞</span>
+              <span class="stat__label">Libros en circulación</span>
+            </div>
+            <div class="stat">
+              <span class="stat__value">♡</span>
+              <span class="stat__label">Sostenida por la comunidad</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CÓMO FUNCIONA ========== -->
+    <section class="how" id="como-funciona">
+      <div class="how__decor" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" data-animate>
+            Así funciona<br><em>nuestra librería</em>
+          </h2>
+          <p class="section-lead" data-animate data-animate-delay="1">
+            Un ciclo sencillo que mantiene los libros en movimiento
+            y la cultura accesible para toda la comunidad.
+          </p>
+        </div>
+        <div class="how__steps">
+          <div class="step" data-animate>
+            <div class="step__num">01</div>
+            <div class="step__icon step__icon--a">
+              <svg viewBox="0 0 40 40" fill="none" aria-hidden="true">
+                <rect x="8" y="10" width="24" height="20" rx="3" stroke="currentColor" stroke-width="1.8"/>
+                <path d="M13 10V8a7 7 0 0114 0v2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                <circle cx="20" cy="21" r="3" fill="currentColor" opacity="0.6"/>
+              </svg>
+            </div>
+            <h3 class="step__title">Visítanos o escríbenos</h3>
+            <p class="step__text">
+              Contáctanos por WhatsApp o visítanos en nuestros puntos de encuentro
+              para explorar los libros disponibles.
+            </p>
+          </div>
+          <div class="step__arrow" aria-hidden="true">
+            <svg viewBox="0 0 64 20" fill="none">
+              <path d="M0 10 Q32 2 64 10" stroke="currentColor" stroke-width="1.5" stroke-dasharray="5 4"/>
+              <polyline points="56,6 64,10 56,14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            </svg>
+          </div>
+          <div class="step" data-animate data-animate-delay="1">
+            <div class="step__num">02</div>
+            <div class="step__icon step__icon--b">
+              <svg viewBox="0 0 40 40" fill="none" aria-hidden="true">
+                <path d="M20 8C15 3 6 5 6 13c0 7 14 19 14 19s14-12 14-19c0-8-9-10-14-5z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3 class="step__title">Llévalo gratis</h3>
+            <p class="step__text">
+              Elige el libro que más te llame. Es completamente tuyo,
+              sin costo. La lectura es un derecho, no un privilegio.
+            </p>
+          </div>
+          <div class="step__arrow" aria-hidden="true">
+            <svg viewBox="0 0 64 20" fill="none">
+              <path d="M0 10 Q32 18 64 10" stroke="currentColor" stroke-width="1.5" stroke-dasharray="5 4"/>
+              <polyline points="56,6 64,10 56,14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            </svg>
+          </div>
+          <div class="step" data-animate data-animate-delay="2">
+            <div class="step__num">03</div>
+            <div class="step__icon step__icon--c">
+              <svg viewBox="0 0 40 40" fill="none" aria-hidden="true">
+                <path d="M20 8v24M8 20h24" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                <circle cx="20" cy="20" r="12" stroke="currentColor" stroke-width="1.8"/>
+              </svg>
+            </div>
+            <h3 class="step__title">Comparte lo que tengas</h3>
+            <p class="step__text">
+              Si tienes libros que ya no lees, dónalos para que sigan su
+              viaje en manos de nuevos lectores. El ciclo continúa.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ACOMPAÑAMIENTO EMOCIONAL ========== -->
+    <section class="companion" id="acompanamiento">
+      <div class="companion__wave-top" aria-hidden="true">
+        <svg viewBox="0 0 1440 72" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+          <path d="M0 0L80 14C160 28 320 56 480 62C640 68 800 52 960 42C1120 32 1280 28 1360 26L1440 24V72H0Z" fill="#F0EAE0"/>
+        </svg>
+      </div>
+      <div class="container companion__container">
+        <div class="companion__text-col">
+          <h2 class="section-title" data-animate>
+            Acompañamiento<br><em>emocional</em>
+          </h2>
+          <p class="companion__para" data-animate data-animate-delay="1">
+            Creemos que los libros no son el único camino hacia el bienestar.
+            Por eso también ofrecemos sesiones de acompañamiento emocional
+            guiadas por Mayi Gómez, donde los libros y la terapia se encuentran.
+          </p>
+          <p class="companion__para" data-animate data-animate-delay="1">
+            Un espacio seguro para reflexionar, sanar y crecer, combinando
+            el poder de la lectura con el apoyo emocional que todos merecemos.
+          </p>
+          <a href="https://nifty-run-647.notion.site/Info-Sesiones-34bc0065e588806987a0f2093ed8bd1e"
+             target="_blank" rel="noopener" class="btn btn--primary" data-animate data-animate-delay="2">
+            Ver información sobre sesiones
+          </a>
+        </div>
+        <div class="companion__features-col">
+          <div class="companion__feature" data-animate>
+            <span class="companion__feature-icon">🌿</span>
+            <div class="companion__feature-body">
+              <h4>Sesiones personalizadas</h4>
+              <p>Un espacio íntimo y seguro donde la lectura y el bienestar emocional se conectan.</p>
+            </div>
+          </div>
+          <div class="companion__feature" data-animate data-animate-delay="1">
+            <span class="companion__feature-icon">📖</span>
+            <div class="companion__feature-body">
+              <h4>Libros como herramienta</h4>
+              <p>Bibliografía curada para acompañar cada proceso personal de crecimiento.</p>
+            </div>
+          </div>
+          <div class="companion__feature" data-animate data-animate-delay="2">
+            <span class="companion__feature-icon">💛</span>
+            <div class="companion__feature-body">
+              <h4>Con amor y propósito</h4>
+              <p>Porque el bienestar, como los libros, también debe ser accesible para todos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="companion__wave-bottom" aria-hidden="true">
+        <svg viewBox="0 0 1440 72" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+          <path d="M0 72L80 58C160 44 320 16 480 10C640 4 800 20 960 30C1120 40 1280 44 1360 46L1440 48V0H0Z" fill="#FBF7F2"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- ========== EN MEDIOS ========== -->
+    <section class="media" id="medios">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" data-animate>
+            Nos han <em>escuchado</em>
+          </h2>
+        </div>
+        <div class="media__card" data-animate>
+          <a href="https://drive.google.com/file/d/10XcreIqo4Vuy13E8-pZCZgvSyWh0TQbO/view"
+             target="_blank" rel="noopener" class="media__thumb"
+             style="background-image: url('https://res.cloudinary.com/dziar1ybm/image/upload/v1780720000/9ddf937c2821297198db1d89933c3f71_yympbg.jpg')"
+             aria-label="Ver entrevista en ESPOL">
+            <div class="media__play">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M8 5v14l11-7z"/>
+              </svg>
+            </div>
+            <p class="media__thumb-label">Ver entrevista</p>
+          </a>
+          <div class="media__info">
+            <span class="media__tag">ESPOL — Escuela Superior Politécnica del Litoral</span>
+            <h3 class="media__title">
+              La Librería Circular como modelo de economía circular viva en Guayaquil
+            </h3>
+            <p class="media__desc">
+              Mayi Gómez fue invitada a compartir la experiencia de la Librería Circular
+              como ejemplo de cómo aplicar los principios de la economía circular en la
+              cultura y la educación de la ciudad. Un reconocimiento a que los libros
+              pueden ser motor de cambio social.
+            </p>
+            <a href="https://drive.google.com/file/d/10XcreIqo4Vuy13E8-pZCZgvSyWh0TQbO/view"
+               target="_blank" rel="noopener" class="btn btn--ghost">
+              Ver entrevista completa →
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== APÓYANOS ========== -->
+    <section class="support" id="apoyanos">
+      <div class="support__blob" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" data-animate>
+            Apoya la<br><em>librería circular</em>
+          </h2>
+          <p class="section-lead" data-animate data-animate-delay="1">
+            Esta iniciativa existe gracias a personas como tú.
+            Hay dos formas de mantener vivo el ciclo.
+          </p>
+        </div>
+        <div class="support__grid">
+          <div class="support__card" data-animate>
+            <div class="support__card-icon">📚</div>
+            <h3>Dona un libro</h3>
+            <p>
+              ¿Tienes libros que ya no lees? Dales una nueva vida.
+              Cualquier libro en buen estado es bienvenido. Contáctanos
+              por WhatsApp para coordinar la entrega.
+            </p>
+            <a href="https://api.whatsapp.com/message/6DYN3IJA7Q4QA1?autoload=1&app_absent=0"
+               target="_blank" rel="noopener" class="btn btn--primary">
+              Coordinar donación
+            </a>
+          </div>
+          <div class="support__card support__card--accent" data-animate data-animate-delay="1">
+            <div class="support__card-icon">💛</div>
+            <h3>Apoyo monetario</h3>
+            <p>
+              Tu aporte económico nos permite seguir operando, crecer
+              y llegar a más personas. Cada contribución, por pequeña
+              que sea, mantiene el ciclo girando.
+            </p>
+            <a href="https://nifty-run-647.notion.site/Info-Sesiones-34bc0065e588806987a0f2093ed8bd1e"
+               target="_blank" rel="noopener" class="btn btn--light">
+              Ver cómo aportar
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#inicio" class="footer__logo">
+          <span class="footer__logo-mark">◎</span>
+          Librería Circular de Guayaquil
+        </a>
+        <p class="footer__tagline">
+          Libros libres, corazones abiertos.<br>Guayaquil, Ecuador.
+        </p>
+        <div class="footer__socials">
+          <a href="https://www.instagram.com/libreriacirculardeguayaquil/"
+             target="_blank" rel="noopener" class="footer__social-link" aria-label="Instagram de la Librería Circular">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/mayigomez__/"
+             target="_blank" rel="noopener" class="footer__social-link" aria-label="Instagram de Mayi Gómez">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+          </a>
+          <a href="https://api.whatsapp.com/message/6DYN3IJA7Q4QA1?autoload=1&app_absent=0"
+             target="_blank" rel="noopener" class="footer__social-link" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          </a>
+        </div>
+      </div>
+      <nav class="footer__nav" aria-label="Navegación del pie de página">
+        <h4 class="footer__nav-title">Navegación</h4>
+        <ul>
+          <li><a href="#quienes-somos">Sobre nosotros</a></li>
+          <li><a href="#como-funciona">Cómo funciona</a></li>
+          <li><a href="#acompanamiento">Acompañamiento</a></li>
+          <li><a href="#medios">En los medios</a></li>
+          <li><a href="#apoyanos">Apóyanos</a></li>
+        </ul>
+      </nav>
+      <div class="footer__contact-col">
+        <h4 class="footer__nav-title">Contacto</h4>
+        <ul>
+          <li><a href="https://api.whatsapp.com/message/6DYN3IJA7Q4QA1?autoload=1&app_absent=0" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="https://www.instagram.com/libreriacirculardeguayaquil/" target="_blank" rel="noopener">@libreriacirculardeguayaquil</a></li>
+          <li><a href="https://www.instagram.com/mayigomez__/" target="_blank" rel="noopener">@mayigomez__</a></li>
+          <li><a href="https://nifty-run-647.notion.site/Info-Sesiones-34bc0065e588806987a0f2093ed8bd1e" target="_blank" rel="noopener">Sesiones de acompañamiento</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>© 2026 Librería Circular de Guayaquil · Hecho con amor en Guayaquil, Ecuador</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://api.whatsapp.com/message/6DYN3IJA7Q4QA1?autoload=1&app_absent=0"
+     target="_blank" rel="noopener" class="fab" aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
